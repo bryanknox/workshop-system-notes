@@ -1,0 +1,12 @@
+.claude/settings.local.json
+
+# Editors
+.vscode/
+.idea/
+.history/
+*~
+
+# OS scratch
+.DS_Store
+Thumbs.db
+Desktop.ini
