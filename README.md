@@ -18,6 +18,8 @@ Discord: https://www.musicthing.co.uk/discord/
 
 Build Guide: https://www.musicthing.co.uk/Workshop_System_Build_Guide/
 
+Quick Start: https://www.musicthing.co.uk/Workshop_Quick_Start/
+
 Workshop Notes newsletter: https://workshopsystem.substack.com/
 
 Online virtual Workshop System: https://vincentmaurer.de/patch-notes/
