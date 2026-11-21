@@ -32,6 +32,8 @@ So far only the VCO module has notes. To add notes for another module, copy the 
   - then a prose description: what it does, alternate uses (for example, Ring Mod working as a VCA), and specs (for example, Stompbox pedal power)
 - When you add a module or submodule note, update [Modules/README.md](Modules/README.md) and the parent `<module>-module.md`.
 
+General notes about the Eurorack format (power, sizes, and so on) go in `Eurorack/`, not in `Modules/`. [README.md](README.md) links to each one.
+
 The Computer module is a separate, programmable product that has its own ecosystem (see the DivKit video in the README). Keep its notes clearly separated from the analog modules.
 
 ## Writing style

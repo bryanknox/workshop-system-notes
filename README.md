@@ -34,3 +34,9 @@ Mylar Melodies video review: https://www.youtube.com/watch?v=ABbWmZOtmig
 DivKit video: https://www.youtube.com/watch?v=D0H_VsJ15go
 - The video is a detailed look at the Computer module.
 - The Computer module is separate from the Workshop System.
+
+## Eurorack
+
+Notes about the Eurorack format are in the [Eurorack](Eurorack/) folder.
+
+- [Eurorack power](Eurorack/eurorack-power.md): power cables, and the cables that fit the Workshop System.
