@@ -1,12 +1,8 @@
 # VCO module
 
-The VCO module includes the following submodules labeled on the front panel:
-1. SineSquare Oscillators
-2. Stereo In
-3. Ring Mod
-4. Stompbox
+The front panel of the VCO module has labels for four submodules:
 
-vco-sine-square-submodule.md
-vco-stereo-in-submodule.md
-vco-ring-mod-submodule.md
-vco-stompbox-submodule.md
+1. SineSquare Oscillators: [vco-sine-square-submodule.md](vco-sine-square-submodule.md)
+2. Stereo In: [vco-stereo-in-submodule.md](vco-stereo-in-submodule.md)
+3. Ring Mod: [vco-ring-mod-submodule.md](vco-ring-mod-submodule.md)
+4. Stompbox: [vco-stompbox-submodule.md](vco-stompbox-submodule.md)

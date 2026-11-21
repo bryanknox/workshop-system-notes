@@ -34,11 +34,15 @@ So far only the VCO module has notes. To add notes for another module, copy the 
 
 The Computer module is a separate, programmable product that has its own ecosystem (see the DivKit video in the README). Keep its notes clearly separated from the analog modules.
 
+## Writing style
+
+Write notes in Simplified Technical English. The project skill [.claude/skills/technical-english/SKILL.md](.claude/skills/technical-english/SKILL.md) has the rules; run it in rewrite mode on each new or changed note. In short: one meaning per word, no more than 25 words in a description sentence, active voice, present tense, and no filler. Keep URLs, quotes, panel labels, and specs exact. When a fact is missing, write `[value missing]` instead of guessing.
+
 ## Formatting
 
 These rules come from `.editorconfig` and `.gitattributes`:
 
 - LF line endings, UTF-8 without a BOM, and a final newline at the end of each file.
-- Markdown files indent with 2 spaces. Don't use tabs. [Modules/README.md](Modules/README.md) currently mixes a tab with spaces in its nested list; fix that if you edit the file.
+- Markdown files indent with 2 spaces. Don't use tabs.
 - Trailing whitespace is trimmed, so use `<br>` for a hard line break instead of trailing spaces.
 - `.vscode/settings.json` holds the cSpell word list. Add proper nouns there (for example, Whitwell) when a new one is flagged.

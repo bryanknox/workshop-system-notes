@@ -4,8 +4,11 @@ Physical Module: VCO
 
 https://www.musicthing.co.uk/Workshop_Quick_Start/#ring-mod
 
-It's a four-quadrant multiplier circuit based on a design by Sebastian Azevedo.
+The Ring Mod is a four-quadrant multiplier circuit.
+Sebastian Azevedo designed the circuit.
 
-It can also work as a simple VCA when a unipolar control signal, such as one from Slopes, is patched to the bottom input.
+The Ring Mod can also work as a simple VCA.
+To use it as a VCA, patch a unipolar control signal to the bottom input.
+Slopes is one source of a unipolar control signal.
 
-The guide links this background article on the circuit: https://www.edn.com/easy-four-quadrant-multiplier-using-a-quad-op-amp/
+The Quick Start links to this background article about the circuit: https://www.edn.com/easy-four-quadrant-multiplier-using-a-quad-op-amp/

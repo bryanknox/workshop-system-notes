@@ -4,6 +4,7 @@ Physical Module: VCO
 
 https://www.musicthing.co.uk/Workshop_Quick_Start/#stereo-in
 
-An aux input for 3.5mm stereo sources such as a laptop, phone, drum machine, shortwave radio, or Walkman.
+Stereo In is an aux input for 3.5mm stereo sources.
+Example sources are a laptop, a phone, a drum machine, a shortwave radio, and a Walkman.
 
-It boosts the signal to modular level.
+Stereo In boosts the signal to modular level.

@@ -2,8 +2,9 @@
 
 Physical Module: VCO
 
-https://www.musicthing.co.uk/Workshop_Quick_Start/#sinesquare-oscillators.
+https://www.musicthing.co.uk/Workshop_Quick_Start/#sinesquare-oscillators
 
-These are simple triangle-core oscillators based on 1970s synth circuits, updated with modern components.
+The SineSquare Oscillators are simple triangle-core oscillators.
+Their design comes from synth circuits of the 1970s, with modern components.
 
-Each FM input is fed by the other oscillator's sine output.
+The sine output of each oscillator connects to the FM input of the other oscillator.

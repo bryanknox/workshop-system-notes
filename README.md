@@ -1,10 +1,10 @@
 # Workshop System notes
 
-Notes related to the Music Thing Modular Workshop System.
+Notes about the Music Thing Modular Workshop System.
 
 > The Workshop System is a DIY modular audio synthesizer.
-Created by Tom Whitwell and one of his [Music Thing Modular](https://www.musicthing.co.uk/)
-open source hardware offerings.
+> Tom Whitwell designed it.
+> It is one of the open source hardware products from [Music Thing Modular](https://www.musicthing.co.uk/).
 
 ## Links
 
@@ -23,14 +23,14 @@ Quick Start: https://www.musicthing.co.uk/Workshop_Quick_Start/
 Workshop Notes newsletter: https://workshopsystem.substack.com/
 
 Online virtual Workshop System: https://vincentmaurer.de/patch-notes/
-- (scroll down to see the virtual Workshop System)
-- A browser based virtual Workshop System that allows you to practice patches.
+- Scroll down the page to find the virtual Workshop System.
+- It runs in your browser. Use it to practice patches.
 
-#### Videos links
+#### Video links
 
 Mylar Melodies video review: https://www.youtube.com/watch?v=ABbWmZOtmig
- - 48:48 - Shows off and explains
+- At 48:48, the video shows and explains [topic missing].
 
-DivKit video:
-https://www.youtube.com/watch?v=D0H_VsJ15go
-Dive into the Computer module (separate from the Workshop System)
+DivKit video: https://www.youtube.com/watch?v=D0H_VsJ15go
+- The video is a detailed look at the Computer module.
+- The Computer module is separate from the Workshop System.
