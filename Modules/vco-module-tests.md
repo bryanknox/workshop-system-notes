@@ -15,6 +15,8 @@ This note answers one question: can a builder test the VCO module before the oth
 The official pages give no test for the VCO module alone.
 The Build Guide says that a Eurorack power cable can supply power to one module at a time.
 The official sound test uses the Mix module.
+A multimeter gives a partial test without the Mix module.
+See [Multimeter test without the Mix module (not official)](#multimeter-test-without-the-mix-module-not-official).
 
 ## What the official pages state
 
@@ -87,7 +89,7 @@ The calibration needs a tuner and a small flat head screwdriver.
 https://www.musicthing.co.uk/Workshop_System_Build_Guide/#troubleshooting
 
 The guide says "Do not poke anything metal onto powered PCBs".
-Multimeter probes on a board that has power can destroy components or the power supply board.
+The guide also says "If you try to test the boards with multimeter probes while the system is powered up, there is a significant risk you'll destroy components and/or the power supply board."
 
 ## Inferences (not stated on the official pages)
 
@@ -100,6 +102,74 @@ No test confirms them.
 - If you build the Mix board second, the official oscillator test is possible earlier. This is not the sequence in the Build Guide.
 - The Build Guide does not permit or prohibit operation of the PSU with only the VCO board connected.
 
+## Multimeter test without the Mix module (not official)
+
+This procedure comes from general electronics practice, not from Music Thing.
+No test confirms it on a Workshop System VCO.
+The official pages give no frequency range and no output voltage level for the oscillators.
+The Quick Start says only "Two wide range, volt per octave analogue oscillators."<br>
+https://www.musicthing.co.uk/Workshop_Quick_Start/
+
+### Before you connect power
+
+Do these steps on a board that has no power.
+Metal probes are safe on a board without power.
+
+1. Examine the solder joints for "blobby or missing" joints, as the Build Guide says.<br>
+   https://www.musicthing.co.uk/Workshop_System_Build_Guide/
+2. Set the multimeter to resistance (ohms).
+3. Measure between the `+` and `GND` pins of the 10-pin power header.
+4. Measure between the `-` and `GND` pins.
+5. Measure between the `+` and `-` pins.
+
+A reading near 0 ohms shows a short circuit.
+Do not connect power if you find a short circuit.
+
+### Power
+
+Use a Eurorack power supply and a 10-pin power cable.
+Put the red stripe on the side with the `-` and `RED>RED` labels.
+See [Eurorack power](../Eurorack/eurorack-power.md).
+
+### Connect the meter through a patch cable
+
+Do not touch the powered board with the meter probes.
+Connect the meter to the free end of a patch cable.
+Then no metal touches the board.
+
+1. Disconnect the power.
+2. Plug a 3.5 mm patch cable into the top sine output (↓).
+3. Attach crocodile clips to the meter leads.
+4. Clip the red lead to the tip of the free plug. The tip carries the signal.
+5. Clip the black lead to the sleeve of the free plug. The sleeve is ground.
+6. Connect the power.
+
+Do not let the tip touch the sleeve.
+This connects the output to ground.
+The output protection of the VCO is [value missing], for example a series resistor.
+
+A digital multimeter has a high input impedance, typically about 10 MΩ.
+So the meter takes almost no current from the output.
+
+### Read the meter
+
+- **Frequency (Hz) mode.** Use this mode if the meter has it. Turn the top oscillator knob. The frequency reading changes if the oscillator operates.
+- **AC volts mode.** A reading above 0 V shows that a signal is present. Many meters are accurate only at low audio frequencies. Compare the readings, but do not trust the values.
+- **DC volts mode.** The meter shows the average voltage. For a waveform centered on 0 V, the average is near 0 V. At a very low frequency, the reading possibly moves up and down. The lowest frequency of the oscillator is [value missing].
+
+Do the same steps on the square output and on the second oscillator.
+
+### Limits
+
+A multimeter does not show these items:
+
+- The shape of the waveform
+- The tuning accuracy
+- The operation of Ring Mod, Stompbox, and Stereo In
+
+For these items, use an oscilloscope or an external amplifier at low volume.
+Or do the official test when the Mix module is complete.
+
 ## Missing data
 
 - Pin count of the VCO power header: [value missing]
@@ -107,3 +177,6 @@ No test confirms them.
 - Official test for Stereo In: [value missing]
 - Official test for Ring Mod: [value missing]
 - Official test for Stompbox: [value missing]
+- Output voltage level of the sine and square outputs: [value missing]
+- Frequency range of the oscillators: [value missing]
+- Output protection of the oscillator outputs: [value missing]
